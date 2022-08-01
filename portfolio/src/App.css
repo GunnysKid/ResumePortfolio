@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +34,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html {
+  background: url(https://officesnapshots.com/wp-content/uploads/2012/07/GoogleMoscow701.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+img.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  min-width: 100%;
+  min-height: 100%;
 }
